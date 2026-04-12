@@ -1,75 +1,56 @@
-# React + TypeScript + Vite
+# A Bit of Everything in JavaScript 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**A Bit of Everything in JavaScript** is designed to be your quick, "go-to" guide on core JavaScript concepts. It brings together bits of different structures and patterns, aiming to provide a snapshot of everything that can be achieved with the language. This project isn't just about syntax—it's built to open your mind to the vast possibilities and potential of JavaScript development.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Interactive Curriculum**: Deep dives into JS History, Syntax, Data Types, Operators, Conditions, and Loops.
+- **Premium Design**: Sleek glassmorphism UI, custom scrollbars, and a vibrant color palette (JavaScript Yellow & Dark Charcoal).
+- **Responsive Layout**: Fully optimized for mobile and desktop using Bootstrap 5.
+- **Modern React**: Leverages the latest React 19 features including the React Compiler.
+- **Fast Performance**: Blazing fast builds and HMR powered by Vite.
 
-## React Compiler
+## 📚 Core Topics Covered
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- **History**: From the 10-day creation by Brendan Eich to modern ECMAScript standards.
+- **Syntax**: Variables (`let`, `const`), functions, arrow functions, and basic structures.
+- **Data Types**: In-depth look at Primitives (String, Number, BigInt, etc.) and Reference Types.
+- **Operators**: Arithmetic, assignment, comparison, and logical operators.
+- **Control Flow**: Complex conditional logic and iterative loops.
 
-Note: This will impact Vite dev & build performances.
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- **Framework**: [React 19](https://react.dev/)
+- **Build Tool**: [Vite 8](https://vite.dev/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Bootstrap 5.3](https://getbootstrap.com/)
+- **Routing**: [React Router 7](https://reactrouter.com/) (using HashRouter for seamless GitHub Pages deployment)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🚀 Getting Started
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Local Development
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/kenneac/A-Bit-of-Everything-in-JavaScript.git
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Deployment
+
+The project is configured for easy deployment to GitHub Pages:
+
+```bash
+npm run deploy
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📄 License
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+This project is open-source and available under the [MIT License](LICENSE).

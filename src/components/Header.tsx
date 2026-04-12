@@ -25,7 +25,7 @@ export default function Header() {
         </button>
 
         <img
-          src="/jsicon.svg"
+          src={`${import.meta.env.BASE_URL}jsicon.svg`}
           alt="JS Logo"
           width="40"
           height="40"

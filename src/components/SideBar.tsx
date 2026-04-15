@@ -7,7 +7,7 @@ export default function SideBar() {
   return (
     <>
       <div
-        className="offcanvas-lg offcanvas-start bg-light h-100 border-end flex-shrink-0"
+        className="offcanvas-lg offcanvas-start bg-light h-100 border-end flex-shrink-0 overflow-y-auto"
         tabIndex={-1}
         id="sidebarMenu"
         aria-labelledby="sidebarMenuLabel"
@@ -26,7 +26,7 @@ export default function SideBar() {
           ></button>
         </div>
 
-        <div className="offcanvas-body d-flex flex-column p-0 pt-3">
+        <div className="offcanvas-body d-flex flex-column p-0 pt-3 overflow-y-auto">
           <ul className="nav nav-pills flex-column mb-auto w-100 px-3">
             <li className="nav-item mb-2">
               <NavLink to="/history" className={linkStyles}>

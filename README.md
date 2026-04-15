@@ -10,13 +10,19 @@
 - **Modern React**: Leverages the latest React 19 features including the React Compiler.
 - **Fast Performance**: Blazing fast builds and HMR powered by Vite.
 
-## 📚 Core Topics Covered
+## 📚 Highlight of Topics Covered
 
 - **History**: From the 10-day creation by Brendan Eich to modern ECMAScript standards.
 - **Syntax**: Variables (`let`, `const`), functions, arrow functions, and basic structures.
 - **Data Types**: In-depth look at Primitives (String, Number, BigInt, etc.) and Reference Types.
 - **Operators**: Arithmetic, assignment, comparison, and logical operators.
 - **Control Flow**: Complex conditional logic and iterative loops.
+- **Temporal**: Modern date and time API.
+- **Array Methods**: Advanced array manipulation techniques.
+- **Sets**: Collection of unique values.
+
+
+
 
 ## 🛠️ Tech Stack
 
@@ -54,3 +60,12 @@ npm run deploy
 ## 📄 License
 
 This project is open-source and available under the [MIT License](LICENSE).
+
+## 📸 Screenshots
+
+![Home Screen - JS History](./public/readme%20images/git%20use%20pic%201.png)
+![JS Syntax](./public/readme%20images/git%20use%20pic%202.png)
+![JS Types](./public/readme%20images/git%20use%20pic%203.png)
+![JS Operators](./public/readme%20images/git%20use%20pic%204.png)
+![JS Conditions](./public/readme%20images/git%20use%20pic%205.png)
+![JS Temporal](./public/readme%20images/git%20use%20pic%20temporals.png)

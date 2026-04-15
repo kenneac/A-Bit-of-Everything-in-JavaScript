@@ -4,7 +4,7 @@
 
 ## ✨ Features
 
-- **Interactive Curriculum**: Deep dives into JS History, Syntax, Data Types, Operators, Conditions, and Loops.
+- **Interactive Curriculum**: Dives into JS History, Syntax, Data Types, Operators, Conditions, and Loops.
 - **Premium Design**: Sleek glassmorphism UI, custom scrollbars, and a vibrant color palette (JavaScript Yellow & Dark Charcoal).
 - **Responsive Layout**: Fully optimized for mobile and desktop using Bootstrap 5.
 - **Modern React**: Leverages the latest React 19 features including the React Compiler.

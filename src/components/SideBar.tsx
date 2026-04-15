@@ -65,12 +65,100 @@ export default function SideBar() {
                 JS Conditions
               </NavLink>
             </li>
-            <li className="nav-item">
+            <li className="nav-item mb-2">
               <NavLink 
                 to="/loops" 
                 className={linkStyles}
               >
                 JS Loops
+              </NavLink>
+            </li>
+            <li className="nav-item mb-2">
+              <NavLink 
+                to="/strings" 
+                className={linkStyles}
+              >
+                JS Strings
+              </NavLink>
+            </li>
+            <li className="nav-item mb-2">
+              <NavLink 
+                to="/numbers" 
+                className={linkStyles}
+              >
+                JS Numbers
+              </NavLink>
+            </li>
+            <li className="nav-item mb-2">
+              <NavLink 
+                to="/functions" 
+                className={linkStyles}
+              >
+                JS Functions
+              </NavLink>
+            </li>
+            <li className="nav-item mb-2">
+              <NavLink 
+                to="/objects" 
+                className={linkStyles}
+              >
+                JS Objects
+              </NavLink>
+            </li>
+            <li className="nav-item mb-2">
+              <NavLink 
+                to="/scopes" 
+                className={linkStyles}
+              >
+                JS Scope
+              </NavLink>
+            </li>
+            <li className="nav-item mb-2">
+              <NavLink 
+                to="/dates" 
+                className={linkStyles}
+              >
+                JS Dates
+              </NavLink>
+            </li>
+            <li className="nav-item mb-2">
+              <NavLink 
+                to="/temporal" 
+                className={linkStyles}
+              >
+                JS Temporal
+              </NavLink>
+            </li>
+            <li className="nav-item mb-2">
+              <NavLink 
+                to="/arrays" 
+                className={linkStyles}
+              >
+                JS Arrays
+              </NavLink>
+            </li>
+            <li className="nav-item mb-2">
+              <NavLink 
+                to="/sets" 
+                className={linkStyles}
+              >
+                JS Sets
+              </NavLink>
+            </li>
+            <li className="nav-item mb-2">
+              <NavLink 
+                to="/maps" 
+                className={linkStyles}
+              >
+                JS Maps
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink 
+                to="/iterations" 
+                className={linkStyles}
+              >
+                JS Iterables
               </NavLink>
             </li>
           </ul>
